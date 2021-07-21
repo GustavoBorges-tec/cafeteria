@@ -35,8 +35,36 @@
 
     <main>
 
-         <h2>Contato</h2>
-        
+         <h2>Entre em contato conosco</h2>
+        <!-- Criação de formulário de contato com as tags:
+        form -> formulário;
+        input -> Caixa para o usuário realizar a entrada de texto;
+        input radio -> Botão de opção;
+        select -> Menu de seleção; 
+        textarea -> Caixa onde o usuário poderá escrever uma mensagem;
+        input submit -> Botão para o envio dos dados. -->
+        <form>
+
+
+          <input type="text" placeholder="Nome Completo" required>
+          <input type="email" placeholder="E-mail" required>
+          <span>
+              <input type="radio" name="sexo" value="Masculino"> Masculino
+              <input type="radio" name="sexo" value="Feminino"> Feminino
+              <input type="radio" name="sexo" value="Outros"> Outros         
+          </span>
+          <select>
+              <option>Elogio</option>
+              <option>Sugestão</option>
+              <option>Crítica</option>
+              <option>Dúvida</option>
+              <option>Outros</option>
+         </select>
+
+         <textarea> Mensagem </textarea>
+
+         <input type="submit" value="Enviar">
+        </form>
  
     </main>
 
