@@ -146,12 +146,11 @@ que TODOS os elementos da tela receberão está formatação*/
 
   /*   Início da formatação da página cardápio  */
 
-  /* main #area,
+      /*main #area,
    main #area #conteudo,
     main #area #conteudo #img,
      main #area #conteudo #texto{
-       border: 1px solid blue; */
-     }
+       border: 1px solid blue;*/
 
      main #area #conteudo #img img{
        width: 200px;
@@ -175,24 +174,26 @@ que TODOS os elementos da tela receberão está formatação*/
        width: 90%;
      }
      main #area #conteudo #texto h5{
-       font-family: arial;
+       font-family: Georgia, 'Times New Roman', Times, serif;
        font-size: 14pt;
        margin: 5px;
+       color: #600;
      }
      main #area #conteudo #texto span{
        color: brown;
+       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
 
      main #area #conteudo{
-       margin-left: 30px;
+       margin-left: 50px;
        /*aplicar uma borda na parte inferior desta caixa*/
        border-bottom: 1px solid silver;
       }
 
      main h3{
-       font-family: arial;
+       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
        font-size: 20pt;
-       margin: 30px;
+       margin: 50px;
      }
 
      main #mapa iframe{
