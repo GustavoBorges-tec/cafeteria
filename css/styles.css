@@ -143,3 +143,55 @@ que TODOS os elementos da tela receberão está formatação*/
     height: 400px;
   }
   /* Fim da formatação da página história    */
+
+  /*   Início da formatação da página cardápio  */
+
+  /* main #area,
+   main #area #conteudo,
+    main #area #conteudo #img,
+     main #area #conteudo #texto{
+       border: 1px solid blue; */
+     }
+
+     main #area #conteudo #img img{
+       width: 200px;
+       height: 180px;
+     }
+     main #area #conteudo #img{
+       width: 210px;
+       /* Fazer a caixa de imagem flutuar para a esquerda */
+       float: left;
+     }
+
+     main #area #conteudo #texto{
+       width: 400px;
+       float: left;
+     }
+
+     /* aplicar a exibição(display) inline-block para as
+     caixas area e conteudo*/
+     main #area, main #area #conteudo{
+       display: inline-block;
+       width: 90%;
+     }
+     main #area #conteudo #texto h5{
+       font-family: arial;
+       font-size: 14pt;
+       margin: 5px;
+     }
+     main #area #conteudo #texto span{
+       color: brown;
+     }
+
+     main #area #conteudo{
+       margin-left: 30px;
+       /*aplicar uma borda na parte inferior desta caixa*/
+       border-bottom: 1px solid silver;
+      }
+       
+     main h3{
+       font-family: arial;
+       font-size: 20pt;
+       margin: 30px;
+     }
+  /*   Fim da formatação da página cardápio     */
